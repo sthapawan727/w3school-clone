@@ -154,7 +154,7 @@ nav {
 
 /* navbar ends here */
 
-.text {
+.first-page-text {
     text-align: center;
     position: relative;
     padding: 15px;
@@ -1411,3 +1411,363 @@ nav {
 
 
 /* code editor section end here  */
+
+/* web template section start here  */
+
+.webtemplate {
+    justify-content: center;
+    text-align: center;
+    background-color: #E7E9EB;
+    padding-top: 50px;
+    padding-bottom:40px;
+    
+}
+
+.webtemplate-h1 {
+    font-size: 65px;
+}
+.webtemplate-h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.webtemplate-image {
+    width: 75%;
+}
+
+.webtemplate-button {
+    background-color: #282A35;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    color: white;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+.webtemplate-button:hover {
+    background-color: black;
+}
+
+/* web template section end here  */
+
+/* how to section start here  */
+#how-to-section {
+    background-color: #fff;
+    padding: 90px 0;
+}
+
+.how-to-section-h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.how-to-section-h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+.how-to-section-h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+.monitor {
+    margin: 30px auto 0;
+    text-align: center;
+    width: 70%;
+}
+
+.monitor-screen-top {
+    background-color: #f1f1f1;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    padding: 10px;
+}
+
+.monitor-screen-top-circles {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+.monitor-screen-top-red-circle {
+    background-color: #ED594A;
+    border-radius: 50%;
+    height: 15px;
+    margin: auto;
+    width: 15px;
+}
+
+.monitor-screen-top-yellow-circle {
+    background-color: #FDD800;
+    border-radius: 50%;
+    height: 15px;
+    margin: auto;
+    margin-left: 5px;
+    width: 15px;
+}
+
+.monitor-screen-top-green-circle {
+    background-color: #5AC05A;
+
+    border-radius: 50%;
+    height: 15px;
+    margin: auto;
+    margin-left: 5px;
+    width: 15px;
+}
+
+.monitor-screen-top-bar {
+    background-color: #fff;
+    border-radius: 3px;
+    margin: auto;
+    padding: 2px 5px;
+    text-align: left;
+    width: 60%;
+}
+
+.monitor-screen-top-bar-url {
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.monitor-screen-bottom {
+    background-color: #e3e6e8;
+    border-radius: 0 0 5px 5px;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+
+.mySlides {
+    display: none
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.monitor-stand-stick {
+    background-color: #282A35;
+    height: 80px;
+    margin: auto;
+    width: 50px;
+}
+
+.monitor-stand-btn {
+    background-color: #282A35;
+    border-radius: 25px;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 10px;
+    width: 50%;
+}
+
+.monitor-stand-btn:hover {
+    background-color: #04AA6D;
+}
+
+/* how to section end here  */
+
+/* footer section start here  */
+
+#footer {
+    background-color: #282A35;
+}
+
+.footer-top {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    /* color: white; */
+    margin: 0 5px;
+}
+
+.footer-left {
+    background-color: white;
+    padding: 10px 15px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.footer-left:hover {
+    opacity: 0.9;
+}
+
+.footer-right {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin: 0 10px;
+}
+
+.footer-right-letter {
+    color: white;
+}
+
+.footer-right:hover {
+    color: green;
+}
+
+.footer-middle {
+    padding: 0 20px;
+}
+
+.footer-middle-icon-container {
+    text-align: right;
+    padding: 20px 0;
+}
+
+.footer-middle-icon {
+    color: white;
+    padding: 13px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.footer-middle-icon:hover {
+    background-color: white;
+    color:black;
+}
+
+.footer-bottom {
+     text-align: center;
+     padding: 20px;
+}
+
+.footer-bottom-p {
+    color: white;
+    font-size: 15px;
+}
+
+.footer-bottom-copyright {
+    font-size: 15px;
+    color: white;
+}
+
+.footer-bottom-copyright a {
+    font-size: 15px;
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-bottom-copyright a:hover {
+    color: #4CAF50;
+}
+
+.footer-bottom-like {
+    padding: 35px;
+}
+
+.footer-bottom-like .like {
+    font-size: 36px;
+    color: white;
+}
+
+.footer-bottom-like .like:hover {
+    opacity: 0.8;
+}
+
+
+
+/* footer section end here  */

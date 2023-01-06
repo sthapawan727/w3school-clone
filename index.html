@@ -98,7 +98,7 @@
 
     <!-- hero section started from here  -->
     <section id="hero">
-      <div class="text">
+      <div class="first-page-text">
         <h1 class="first-line">Learn to Code</h1>
         <h3 class="second-line">With the world's largest web developer site. </h3>
         <form action="" class="hero-form">
@@ -485,12 +485,156 @@
       </div>
     </section>
 
-
-
-
-
-
     <!-- code editor section end here  -->
+    
+    <!-- web templete start here  -->
+    <section id="webtemplate">
+      <div class="webtemplate">
+        <h1 class="webtemplate-h1">Web Templates</h1>
+        <h2 class="webtemplate-h2">Browse our selection of free responsive HTML Templates</h2>
+        <div class="images"><img src="images/web-templates-image.jpg" alt="" class="webtemplate-image"></div>
+        <a href="#webtemplate" class="webtemplate-button">Browse Templates</a>
+      </div>
+    </section>
+    <!-- web templete end here  -->
+
+    <!-- How To Section start here  -->
+    <section id="how-to-section">
+      <div class="how-to-section">
+        <h1 class="how-to-section-h1">How To Section</h1>
+        <h2 class="how-to-section-h2">Code snippets for HTML, CSS and JavaScript</h2>
+        <h3 class="how-to-section-h3">For example, how to create a slideshow:</h3>
+        <div class="monitor">
+          <div class="monitor-screen-top">
+            <div class="monitor-screen-top-circles">
+              <div class="monitor-screen-top-red-circle"></div>
+              <div class="monitor-screen-top-yellow-circle"></div>
+              <div class="monitor-screen-top-green-circle"></div>
+            </div>
+            <div class="monitor-screen-top-bar">
+              <span class="monitor-screen-top-bar-url">www.w3schools.com/howto/</span>
+            </div>
+          </div>
+          <div class="monitor-screen-bottom">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/slideshow-img1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+              </div>
+  
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/slideshow-img2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+              </div>
+  
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/slideshow-img3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <script>
+              let slideIndex = 1;
+              showSlides(slideIndex);
+          
+              function plusSlides(n) {
+                showSlides(slideIndex += n);
+              }
+          
+              function currentSlide(n) {
+                showSlides(slideIndex = n);
+              }
+          
+              function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+              }
+            </script>
+          </div>
+          <div class="monitor-stand">
+            <div class="monitor-stand-stick"></div>
+            <a href="#how-to-section" class="monitor-stand-btn">Learn How To</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+
+    <!-- How To Section end here  -->
+
+    <!-- footer section start here  -->
+    <div id="footer">
+      <footer>
+        <div class="footer-top"> 
+          <div class="footer-top-left">
+            <a href="#footer" class="footer-left">QUIZZES</a>
+            <a href="#footer" class="footer-left">EXERCISE</a>
+            <a href="#footer" class="footer-left">CERTIFICATES</a>
+            <a href="#footer" class="footer-left">UPGRADE</a>
+            <a href="#footer" class="footer-left">SPACES</a>
+            <a href="#footer" class="footer-left">SUPPORT</a>
+            <a href="#footer" class="footer-left">NEWSLETTER</a>
+          </div>
+          <div class="footer-top-right">
+            <a href="#footer" class="footer-right">FORUM</a>
+            <a href="#footer" class="footer-right-letter">|</a>
+            <a href="#footer" class="footer-right">ABOUT</a>
+          </div>
+        </div>
+        <div class="footer-middle">
+          <div class="footer-middle-icon-container">
+            <a href="#footer" class="footer-middle-icon">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="#footer" class="footer-middle-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#footer" class="footer-middle-icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#footer" class="footer-middle-icon">
+              <i class="fa-brands fa-discord"></i>
+            </a>
+          </div>
+          </div>
+          <div class="footer-bottom">
+            <p class="footer-bottom-p">W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.</p>
+            <p class="footer-bottom-copyright"><a href="#footer">Copyright 1999-2022</a> by Refsnes Data. All Rights Reserved.</p>
+            <p class="footer-bottom-like">
+              <a href="#footer" class="like">
+                <i class="fa-regular fa-thumbs-up"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+
+    <!-- footer section end here  -->
 </body>
 
 </html>
